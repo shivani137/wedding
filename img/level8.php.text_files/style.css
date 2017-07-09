@@ -1,0 +1,215 @@
+* {
+margin: 1;
+}
+html,body{
+
+background:url(../images/background_withouttv_small.jpg) no-repeat fixed;
+background-color:#777;
+background-size:100%;
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+font-style:normal;
+font-weight:500;
+font-size:16px;
+/*font-variant:small-caps;*/
+color:#990;
+
+}
+a, img {
+    border:none;
+}
+td{
+  text-align:center;
+}
+#wrap {min-height: 100%;}
+
+
+footer{
+
+  bottom: 0;
+  box-shadow: 0 0 10px #86860c;
+  height: 30px;
+  right: 0;
+  position: fixed;
+  width: 100px;
+  z-index: 100000;
+  background-image:url(../images/backs.png);
+  margin: 0 10px 10px 0;
+  padding: 0 10px 40px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+
+}
+social{
+  height: 80px;
+  left: 0;
+  bottom: 0;
+  position:fixed;
+  margin: 0 0 10px 10px;
+  padding: 10px 10px 10px;
+  z-index: 100000;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 0 0 10px #86860c;
+  background-image:url(../images/backs.png);
+
+}
+h3{
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #990;
+  font-size: 11px;
+  font-weight: 100;
+  margin : 5px 0 -1px 0;
+  font-variant:normal;
+}
+@font-face{
+  font-family:Sean;
+  src: url('resources/handsean.ttf');
+}
+footer a.footerstyle,a.footerstyle:visited{
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  color: #990;
+  text-decoration:none;
+  font-size:11px!important;
+  font-weight:100!important;
+}
+
+logout{
+  height: 30px;
+
+  right: 30px;
+  top: 50px;
+  position:fixed;
+  margin: 0 0 10px 10px;
+  padding: 0 10px 40px;
+  z-index: 100000;
+  opacity: 0.90;
+}
+a:hover{
+  cursor:pointer;
+}
+
+.style1 {color: #09F;
+font-size: 14px;}
+
+.wrong {color:#DB464A;
+font-size: 14px;}
+
+ul#navigation {
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+  top:100px;    
+    left: 0px;
+    list-style: none;
+    z-index:9999;
+}
+ul#navigation li {
+    width: 60px;
+}
+ul#navigation li a {
+    display: block;
+    margin-left: -2px;
+  margin-bottom:25px;
+    width: 60px;
+    height: 100px;
+  background-color:#999;
+    background-repeat:no-repeat;
+    background-position:center center;
+  vertical-align:middle;
+    border:1px solid #868710;
+   -moz-box-shadow: 0 0 20px black; -webkit-box-shadow: 0 0 20px black; box-shadow: 0 0 20px black;
+   border-radius:10px 10px 10px 10px;
+    -moz-border-radius:10px 10px 10px 10px;
+    -webkit-border-bottom-right-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -khtml-border-bottom-right-radius: 10px;
+    -khtml-border-top-right-radius: 10px;
+    opacity: 0.9;
+}
+
+input[type=text],input[type=password]{
+  background-color:#DDDDDD;
+  border-radius:7px;
+  -moz-border-radius:7px;
+  border:1px solid #1d1d1d;
+  color:#333;
+  padding-left: 7px;
+  height: 20px;
+  text-justify:auto;
+  font-size: 13px;
+}
+select{
+  background-color:#DDDDDD;
+  border-radius:7px;
+  -moz-border-radius:7px;
+  border:1px solid #1d1d1d;
+  color:#333;
+  padding-left: 7px;
+  height: 24px;
+  text-justify:auto;
+  font-size: 13px;
+}
+textarea#style2{
+  background-color:#DDDDDD;
+  width: 300px;
+  height: 100px;
+  color:#333;
+  border: 3px solid #cccccc;
+  border-radius: 10px;
+  padding-left: 7px;
+  text-justify:auto;
+  font-size: 13px;
+  font-family: Tahoma, sans-serif;
+  background-position: bottom right;
+}
+input[type=submit]{
+  background:url(../images/submit_inactive.png) no-repeat;
+    cursor:pointer;
+  width:79px;
+  height:22px;
+  border:none;
+  padding:-2px;
+  
+}
+input[type=submit]:active {
+    background:url(../images/submit_active.png) no-repeat;
+    cursor:pointer;
+}
+input[type=button]{
+  background:url(../images/submit_inactive.png) no-repeat;
+    cursor:pointer;
+  width:79px;
+  height:22px;
+  border:none;
+  padding:-2px;
+  
+}
+input[type=button]:active {
+    background:url(../images/submit_active.png) no-repeat;
+    cursor:pointer;
+}
+@font-face{
+  font-family:architect;
+  src: url('../resources/ArchitectsDaughter.ttf');
+}
+.style3{
+  font-size:15px;
+  font-weight:200;
+  font-variant:normal;
+  color:#CC0;
+  font-family:architect;
+  text-shadow:8px 8px 8px #000;
+  letter-spacing:1px;
+  
+}
+.style4{
+  font-size:15px;
+  font-weight:300;
+  font-variant:normal;
+  color:#39F;
+  font-family:architect;
+  text-shadow:8px 8px 8px #000;
+  letter-spacing:1px;
+}
+
+#page-wrap { position: relative; width: 1000px; margin: 50px auto; border-radius:15px ; padding: 20px; background:url(images/backs.png) fixed;  -moz-box-shadow: 0 0 40px #868710; -webkit-box-shadow: 0 0 40px #868710; box-shadow: 0 0 40px #868710;}

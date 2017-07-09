@@ -138,6 +138,24 @@ body {
 .title {
     color: black;
 }
+
+#days-to-go {
+    color: burlywood;
+}
+
+#days-to-go > .day {
+    font-size: 20px;
+    color: burlywood;
+}
+#days-to-go > .time {
+    font-size: 12px;
+    color: burlywood;
+}
+
+.option {
+    display: none;
+}
+
 #introtext {
     display: block;
     padding: 10px 0 10px 0;
@@ -276,6 +294,10 @@ body {
 
 #bg-container {
 
+}
+.icon {
+    width: 50px;
+    margin-top: -10px;
 }
 
 section {
